@@ -3,7 +3,7 @@ body{
     padding: 0px;
 }
 .card-container{
-    width: 100%;
+    width: 100%; 
     height: auto;
     /* border: 2px solid red; */
     margin: 5% auto;
@@ -12,8 +12,8 @@ body{
 
 .card{
     width: 250px;
-    height: 350px;
-    border: 1px solid lightgray;
+    height: 350px; 
+    border: 1px solid lightgray; 
     display: inline-block;
     border-radius: 5px;
     margin: 12px;
@@ -29,7 +29,7 @@ body{
 .text span{
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 110px;
+    line-height: 100px;
     color: white;
     text-shadow: 2px 2px 4px black;
 }
@@ -40,6 +40,9 @@ body{
     /* font-family: Arial, Helvetica, sans-serif; */
     /* font-size: 1.3em; */
     /* line-height: 250px; */
+}
+ .card-container .img:hover{
+    background-color: rgb(216, 194, 194);
 }
 .img img{
     width: 210px;
